@@ -1,0 +1,88 @@
+# M-e-<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscrição - Curso Mãe Reborn</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fce4ec;
+      color: #333;
+      padding: 20px;
+    }
+    .form-container {
+      background: white;
+      max-width: 500px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #d81b60;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #d81b60;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #ad1457;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <h2>Curso Mãe Reborn - Primeiros Passos com Amor</h2>
+  <form id="formulario">
+    <label for="nome">Nome completo:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefone">Telefone / WhatsApp:</label>
+    <input type="tel" id="telefone" name="telefone" required>
+
+    <label for="cidade">Cidade e Estado:</label>
+    <input type="text" id="cidade" name="cidade" required>
+
+    <label for="motivacao">Por que deseja fazer o curso?</label>
+    <textarea id="motivacao" name="motivacao" rows="4" required></textarea>
+
+    <button type="submit">Enviar inscrição e ir para o pagamento</button>
+  </form>
+</div>
+
+<script>
+  document.getElementById("formulario").addEventListener("submit", function(e) {
+    e.preventDefault();
+    
+    // Aqui você pode incluir uma chamada para salvar os dados, se quiser
+
+    // Redireciona para o PagSeguro
+    window.location.href = "https://pag.ae/7_FwvhW7Q";
+  });
+</script>
+
+</body>
+</html>reborn-formul-rio-
